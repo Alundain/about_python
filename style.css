@@ -1,6 +1,6 @@
 *{
     
-  /* outline: 1px dotted red;*/
+  /* outline: 1px dotted red; */
     
 }
 
@@ -14,6 +14,7 @@
 .header{
     width: 960px;
     display: flex;
+    justify-content: space-around;
 }
 
     .header img{
@@ -53,7 +54,8 @@
     display: flex;
     background-color: #487EAD;
     padding:10px 10px 10px 10px;
-    margin: 12px 50px 12px 90px;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 7px;
     list-style: none;
     justify-content: space-around;
@@ -72,16 +74,17 @@
         margin: 12px;
     }
 
+    .listado li::before {
+        content: ">>";
+        color: #cbad04;
+        font-size: 6px;
+        font-weight: bold;
+    }
+
     .listado a{
         color: white;
         }
     
-
-    .listado span{
-        color: #cbad04;
-        font-size: 10px; 
-    }
-
 .parrafo{
     display: inline-block;
     width: 600px;
@@ -95,6 +98,7 @@
     list-style: none;
     text-align: center;
     margin: 10px;
+    font-style: italic;
 }
 
    .parrafo p{
@@ -127,12 +131,12 @@
 .footer{
      text-align: center;
      padding-top:15px;
+     padding-bottom: 5px;
 
 }
 
     .footer li{
         display: inline-block;
-        justify-content: space-around;
         margin: 10px;
         list-style: none;
         font-size: 20px;
@@ -143,6 +147,7 @@
     .footer p{
         text-align: center;
         color: #9ABFE0;
+        font-size: 10px;
     }
 
 
